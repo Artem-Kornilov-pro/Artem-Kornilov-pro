@@ -5,7 +5,7 @@
 ---
 
 ## 🛠️ Мой стек технологий:
-- **Языки программирования:** Python, C++, JavaScript, TypeScript
+- **Языки программирования:** Python, C++, JavaScript, TypeScript, GO, 
 - **Фреймворки:** Flask, FastAPI, React
 - **Базы данных:** PostgreSQL, SQLite, Faiss, Qdrant, ChoromeDB, MongoDB
 - **Frontend:** HTML, CSS
