@@ -5,9 +5,9 @@
 ---
 
 ## 🛠️ Мой стек технологий:
-- **Языки программирования:** Python, C++, JavaScript, TypeScript, GO, 
+- **Языки программирования:** Python, C++, JavaScript, TypeScript, GO, gd-script
 - **Фреймворки:** Flask, FastAPI, React
-- **Базы данных:** PostgreSQL, SQLite, Faiss, Qdrant, ChoromeDB, MongoDB
+- **Базы данных:** PostgreSQL, SQLite, Faiss, Qdrant, ChoromeDB, MongoDB, Cassandra
 - **Frontend:** HTML, CSS
 - **Инструменты:** GitHub, VS Code, PyCharm, Visual Studio, Sublime Text, Canva, Figma
 
@@ -18,6 +18,20 @@
 
 ![Языки в репозиториях](https://github-readme-stats.vercel.app/api/top-langs/?username=Artem-Kornilov-pro&langs_count=10&layout=compact&theme=radical)
 
+## 🏆 GitHub Profile Trophy
+[![trophy](https://github-profile-trophy.vercel.app/?username=Artem-Kornilov-pro&theme=radical&margin-w=15&margin-h=15)](https://github.com/ryo-ma/github-profile-trophy)
+
+## 📈 GitHub Activity Graph
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Artem-Kornilov-pro&theme=radical)
+
+## ⏱️ Coding Time (Wakatime)
+![Wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Artem-Kornilov-pro&theme=radical)
+
+## 🔥 GitHub Streak Stats
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Artem-Kornilov-pro&theme=radical)
+
+## 📦 Pinned Repositories
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Artem-Kornilov-pro&repo=название_репозитория&theme=radical)](https://github.com/Artem-Kornilov-pro/название_репозитория)
 
 ---
 
