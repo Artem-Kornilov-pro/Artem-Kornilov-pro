@@ -24,14 +24,6 @@
 ## 📈 GitHub Activity Graph
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Artem-Kornilov-pro&theme=radical)
 
-## ⏱️ Coding Time (Wakatime)
-![Wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Artem-Kornilov-pro&theme=radical)
-
-## 🔥 GitHub Streak Stats
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Artem-Kornilov-pro&theme=radical)
-
-## 📦 Pinned Repositories
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Artem-Kornilov-pro&repo=название_репозитория&theme=radical)](https://github.com/Artem-Kornilov-pro/название_репозитория)
 
 ---
 
