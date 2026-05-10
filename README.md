@@ -16,7 +16,7 @@
 ## 📊 Статистика GitHub
 ![Статистика](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/?username=Artem-Kornilov-pro&show_icons=true&theme=radical)
 
-![Языки в репозиториях](https://github-readme-stats.vercel.app/api/top-langs/?username=Artem-Kornilov-pro&langs_count=10&layout=compact&theme=radical)
+![Языки в репозиториях](https://github-readme-stats.vercel.app/api?username=Artem-Kornilov-pro&show_icons=true&theme=radical)
 
 ## 🏆 GitHub Profile Trophy
 [![trophy](https://github-profile-trophy.vercel.app/?username=Artem-Kornilov-pro&theme=radical&margin-w=15&margin-h=15)](https://github.com/ryo-ma/github-profile-trophy)
