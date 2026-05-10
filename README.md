@@ -14,7 +14,7 @@
 ---
 
 ## 📊 Статистика GitHub
-![Статистика](https://github-readme-stats.vercel.app/api?username=Artem-Kornilov-pro&show_icons=true&theme=radical)
+![Статистика](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/?username=Artem-Kornilov-pro&show_icons=true&theme=radical)
 
 ![Языки в репозиториях](https://github-readme-stats.vercel.app/api/top-langs/?username=Artem-Kornilov-pro&langs_count=10&layout=compact&theme=radical)
 
