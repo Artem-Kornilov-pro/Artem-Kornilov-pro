@@ -22,6 +22,19 @@
 [![trophy](https://github-profile-trophy.vercel.app/?username=Artem-Kornilov-pro&theme=radical&margin-w=15&margin-h=15)](https://github.com/ryo-ma/github-profile-trophy)
 
 
+<div align="center">
+
+![Profile Views](https://komarev.com/ghpvc/?username=Artem-Kornilov-pro&color=blueviolet)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Artem-Kornilov-pro&theme=radical)
+
+![GitHub Stats](github-stats.svg)
+
+![Top Languages](github-langs.svg)
+
+</div>
+
+
 ---
 
 ## 📌 О себе:
