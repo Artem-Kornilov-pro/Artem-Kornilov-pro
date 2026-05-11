@@ -28,9 +28,9 @@
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Artem-Kornilov-pro&theme=radical)
 
-![GitHub Stats](github-stats.svg)
+![GitHub Stats](https://raw.githubusercontent.com/Artem-Kornilov-pro/Artem-Kornilov-pro/main/github-stats.svg?v=1)
 
-![Top Languages](github-langs.svg)
+![Top Languages](https://raw.githubusercontent.com/Artem-Kornilov-pro/Artem-Kornilov-pro/main/github-langs.svg?v=1)
 
 </div>
 
