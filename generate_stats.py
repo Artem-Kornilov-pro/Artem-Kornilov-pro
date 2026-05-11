@@ -126,9 +126,9 @@ bar_parts = ""
 x_offset = BAR_X
 for name, data in sorted_langs:
     pct = data["size"] / total_bytes
-    width = max(BAR_WIDTH * pct, 2)  # минимум 2px чтобы было видно
+    width = max(BAR_WIDTH * pct, 2)
     color = data["color"]
-    bar_parts += f'<rect x="{x_offset:.1f}" y="{BAR_Y}" width="{width:.1f}" height="{BAR_HEIGHT}" fill="{color}"/>'
+    bar_parts += f'<rect x="{x_offset:.1f}" y="{BAR_Y}" width="{width:.1f}" height="{BAR_HEIGHT}" fill="{color}" clip-path="url(#barClip)"/>'
     x_offset += width
 
 legend_parts = ""
@@ -136,12 +136,10 @@ legend_x = BAR_X
 for name, data in sorted_langs:
     pct = round(data["size"] / total_bytes * 100, 1)
     color = data["color"]
-
     text_width = len(name) * 7 + 55
     if legend_x + text_width > BAR_X + BAR_WIDTH:
         legend_x = BAR_X
         LEGEND_Y += 20
-
     legend_parts += f'''
     <circle cx="{legend_x + 5}" cy="{LEGEND_Y - 4}" r="4" fill="{color}"/>
     <text x="{legend_x + 13}" y="{LEGEND_Y}" fill="white" font-family="Arial" font-size="11">{name} {pct}%</text>'''
@@ -150,11 +148,24 @@ for name, data in sorted_langs:
 total_height = LEGEND_Y + 30
 
 langs_svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="460" height="{total_height}" viewBox="0 0 460 {total_height}">
+  <defs>
+    <clipPath id="barClip">
+      <rect x="{BAR_X}" y="{BAR_Y}" width="{BAR_WIDTH}" height="{BAR_HEIGHT}" rx="6"/>
+    </clipPath>
+  </defs>
   <rect width="460" height="{total_height}" rx="10" fill="#141321"/>
   <text x="20" y="35" fill="#f8d847" font-family="Arial" font-size="16" font-weight="bold">💻 Top Languages</text>
+
+  <!-- Фон полосы -->
   <rect x="{BAR_X}" y="{BAR_Y}" width="{BAR_WIDTH}" height="{BAR_HEIGHT}" rx="6" fill="#2a283e"/>
+
+  <!-- Цветные части (обрезанные) -->
   {bar_parts}
-  <rect x="{BAR_X}" y="{BAR_Y}" width="{BAR_WIDTH}" height="{BAR_HEIGHT}" rx="6" fill="none" stroke="#ffffff22" stroke-width="1"/>
+
+  <!-- Рамка поверх -->
+  <rect x="{BAR_X}" y="{BAR_Y}" width="{BAR_WIDTH}" height="{BAR_HEIGHT}" rx="6" fill="none" stroke="#ffffff33" stroke-width="1"/>
+
+  <!-- Легенда -->
   {legend_parts}
 </svg>'''
 
