@@ -2,8 +2,8 @@ name: Generate Stats
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # каждый день в полночь UTC
-  workflow_dispatch:       # можно запустить вручную
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   generate:
@@ -13,24 +13,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate GitHub Stats SVG
-        uses: anuraghazra/github-readme-stats@master
-        with:
-          username: Artem-Kornilov-pro
-          show_icons: true
-          theme: radical
-          count_private: true
-          output: github-stats.svg
+      - name: Download GitHub Stats
+        run: |
+          curl -o github-stats.svg \
+          "https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Artem-Kornilov-pro&show_icons=true&theme=radical&count_private=true"
 
-      - name: Generate Top Languages SVG
-        uses: anuraghazra/github-readme-stats@master
-        with:
-          username: Artem-Kornilov-pro
-          layout: compact
-          theme: radical
-          langs_count: 8
-          card_type: top-langs
-          output: github-langs.svg
+      - name: Download Top Languages
+        run: |
+          curl -o github-langs.svg \
+          "https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Artem-Kornilov-pro&layout=compact&theme=radical&langs_count=8"
 
       - name: Commit & Push
         run: |
