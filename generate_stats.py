@@ -125,4 +125,8 @@ with open("github-stats.svg", "w", encoding="utf-8") as f:
 with open("github-langs.svg", "w", encoding="utf-8") as f:
     f.write(langs_svg)
 
+# Сохраняем cache_buster в отдельный файл
+with open("cache_version.txt", "w") as f:
+    f.write(cache_buster)
+
 print("✅ SVG files generated successfully!")
