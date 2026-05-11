@@ -90,32 +90,55 @@ sorted_langs = sorted(lang_sizes.items(), key=lambda x: x[1]["size"], reverse=Tr
 total_bytes = sum(v["size"] for _, v in sorted_langs) or 1
 
 # --- SVG: Статистика ---
-stats_svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="460" height="200" viewBox="0 0 460 200">
-  <rect width="460" height="200" rx="10" fill="#141321"/>
-  <text x="25" y="40" fill="#f8d847" font-family="Arial" font-size="18" font-weight="bold">📊 GitHub Stats</text>
-  <text x="25" y="75" fill="#fe428e" font-family="Arial" font-size="28" font-weight="bold">Artem-Kornilov-pro</text>
-  <text x="25" y="105" fill="white" font-family="Arial" font-size="14">Commits: {total_commits}</text>
-  <text x="25" y="125" fill="white" font-family="Arial" font-size="14">Pull Requests: {total_prs}</text>
-  <text x="25" y="145" fill="white" font-family="Arial" font-size="14">Issues: {total_issues}</text>
-  <text x="25" y="165" fill="white" font-family="Arial" font-size="14">Stars: {total_stars}  •  Forks: {total_forks}  •  Repos: {total_repos}</text>
-</svg>'''
+# --- SVG: Языки (одна полоса + легенда) ---
+BAR_HEIGHT = 12
+BAR_WIDTH = 420
+BAR_X = 20
+BAR_Y = 60
+LEGEND_Y = BAR_Y + BAR_HEIGHT + 25
 
-# --- SVG: Языки ---
-lang_rows = ""
-y = 35
+# Полоса
+bar_parts = ""
+legend_parts = ""
+legend_x = BAR_X
+x_offset = BAR_X
+
+for name, data in sorted_langs:
+    pct = data["size"] / total_bytes
+    width = BAR_WIDTH * pct
+    color = data["color"]
+    bar_parts += f'<rect x="{x_offset:.1f}" y="{BAR_Y}" width="{width:.1f}" height="{BAR_HEIGHT}" fill="{color}"/>'
+    x_offset += width
+
+# Легенда (кругляши + подписи)
+legend_x = BAR_X
 for name, data in sorted_langs:
     pct = round(data["size"] / total_bytes * 100, 1)
     color = data["color"]
-    lang_rows += f'''
-  <rect x="20" y="{y}" width="420" height="18" rx="3" fill="#2a283e"/>
-  <rect x="20" y="{y}" width="{pct * 4.2}" height="18" rx="3" fill="{color}"/>
-  <text x="25" y="{y + 13}" fill="white" font-family="Arial" font-size="11">{name} — {pct}%</text>'''
-    y += 30
 
-langs_svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="460" height="{y + 15}" viewBox="0 0 460 {y + 15}">
-  <rect width="460" height="{y + 15}" rx="10" fill="#141321"/>
-  <text x="20" y="25" fill="#f8d847" font-family="Arial" font-size="16" font-weight="bold">💻 Top Languages</text>
-  {lang_rows}
+    # Перенос строки, если не влезает
+    if legend_x > BAR_X + BAR_WIDTH - 80:
+        legend_x = BAR_X
+        LEGEND_Y += 20
+
+    legend_parts += f'''
+    <circle cx="{legend_x + 5}" cy="{LEGEND_Y - 4}" r="4" fill="{color}"/>
+    <text x="{legend_x + 13}" y="{LEGEND_Y}" fill="white" font-family="Arial" font-size="11">{name} {pct}%</text>'''
+    legend_x += len(name) * 7 + 50  # примерный отступ
+
+total_height = LEGEND_Y + 30
+
+langs_svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="460" height="{total_height}" viewBox="0 0 460 {total_height}">
+  <rect width="460" height="{total_height}" rx="10" fill="#141321"/>
+  <text x="20" y="35" fill="#f8d847" font-family="Arial" font-size="16" font-weight="bold">💻 Top Languages</text>
+
+  <!-- Цветная полоса -->
+  <rect x="{BAR_X}" y="{BAR_Y}" width="{BAR_WIDTH}" height="{BAR_HEIGHT}" rx="6" fill="#2a283e"/>
+  {bar_parts}
+  <rect x="{BAR_X}" y="{BAR_Y}" width="{BAR_WIDTH}" height="{BAR_HEIGHT}" rx="6" fill="none" stroke="#ffffff22" stroke-width="1"/>
+
+  <!-- Легенда -->
+  {legend_parts}
 </svg>'''
 
 with open("github-stats.svg", "w", encoding="utf-8") as f:
