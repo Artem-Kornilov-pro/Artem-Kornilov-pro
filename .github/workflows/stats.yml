@@ -13,7 +13,7 @@ jobs:
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
-      - uses: actions/checkout@v4.2
+      - uses: actions/checkout@v4
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -24,6 +24,8 @@ jobs:
         run: pip install requests
 
       - name: Generate stats via Python
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python generate_stats.py
 
       - name: Commit & Push
