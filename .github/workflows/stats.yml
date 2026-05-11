@@ -1,0 +1,41 @@
+name: Generate Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # каждый день в полночь UTC
+  workflow_dispatch:       # можно запустить вручную
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate GitHub Stats SVG
+        uses: anuraghazra/github-readme-stats@master
+        with:
+          username: Artem-Kornilov-pro
+          show_icons: true
+          theme: radical
+          count_private: true
+          output: github-stats.svg
+
+      - name: Generate Top Languages SVG
+        uses: anuraghazra/github-readme-stats@master
+        with:
+          username: Artem-Kornilov-pro
+          layout: compact
+          theme: radical
+          langs_count: 8
+          card_type: top-langs
+          output: github-langs.svg
+
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add github-stats.svg github-langs.svg
+          git diff --staged --quiet || git commit -m "🔄 Auto-update stats"
+          git push
