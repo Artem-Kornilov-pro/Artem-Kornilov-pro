@@ -20,9 +20,9 @@
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Artem-Kornilov-pro&theme=radical)
 
-![GitHub Stats](https://raw.githubusercontent.com/Artem-Kornilov-pro/Artem-Kornilov-pro/main/github-stats.svg?v=20260512033026)
+![GitHub Stats](https://raw.githubusercontent.com/Artem-Kornilov-pro/Artem-Kornilov-pro/main/github-stats.svg?v=20260513033746)
 
-![Top Languages](https://raw.githubusercontent.com/Artem-Kornilov-pro/Artem-Kornilov-pro/main/github-langs.svg?v=20260512033026)
+![Top Languages](https://raw.githubusercontent.com/Artem-Kornilov-pro/Artem-Kornilov-pro/main/github-langs.svg?v=20260513033746)
 
 </div>
 
