@@ -189,12 +189,6 @@
 
 ## 📊 Активность и статистика
 
-<div align="center">
-  <a href="https://github.com/Artem-Kornilov-pro">
-    <img src="https://komarev.com/ghpvc/?username=Artem-Kornilov-pro&color=6C63FF&style=for-the-badge&label=👁+ПРОСМОТРЫ+ПРОФИЛЯ" alt="Profile Views" />
-  </a>
-</div>
-
 <br />
 
 <div align="center">
