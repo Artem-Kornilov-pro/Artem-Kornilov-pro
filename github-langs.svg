@@ -11,7 +11,7 @@
   <rect x="20" y="55" width="420" height="12" rx="6" fill="#2a283e"/>
 
   <!-- Цветные части (обрезанные) -->
-  <rect x="20.0" y="55" width="362.0" height="12" fill="#3572A5" clip-path="url(#barClip)"/><rect x="382.0" y="55" width="21.0" height="12" fill="#e34c26" clip-path="url(#barClip)"/><rect x="402.9" y="55" width="11.4" height="12" fill="#6E4C13" clip-path="url(#barClip)"/><rect x="414.4" y="55" width="9.0" height="12" fill="#663399" clip-path="url(#barClip)"/><rect x="423.3" y="55" width="6.8" height="12" fill="#3178c6" clip-path="url(#barClip)"/><rect x="430.2" y="55" width="4.5" height="12" fill="#00ADD8" clip-path="url(#barClip)"/><rect x="434.7" y="55" width="2.9" height="12" fill="#f1e05a" clip-path="url(#barClip)"/><rect x="437.6" y="55" width="2.4" height="12" fill="#384d54" clip-path="url(#barClip)"/>
+  <rect x="20.0" y="55" width="362.1" height="12" fill="#3572A5" clip-path="url(#barClip)"/><rect x="382.1" y="55" width="20.9" height="12" fill="#e34c26" clip-path="url(#barClip)"/><rect x="403.0" y="55" width="11.4" height="12" fill="#6E4C13" clip-path="url(#barClip)"/><rect x="414.4" y="55" width="9.0" height="12" fill="#663399" clip-path="url(#barClip)"/><rect x="423.4" y="55" width="6.8" height="12" fill="#3178c6" clip-path="url(#barClip)"/><rect x="430.2" y="55" width="4.5" height="12" fill="#00ADD8" clip-path="url(#barClip)"/><rect x="434.7" y="55" width="2.8" height="12" fill="#f1e05a" clip-path="url(#barClip)"/><rect x="437.6" y="55" width="2.4" height="12" fill="#384d54" clip-path="url(#barClip)"/>
 
   <!-- Рамка поверх -->
   <rect x="20" y="55" width="420" height="12" rx="6" fill="none" stroke="#ffffff33" stroke-width="1"/>
