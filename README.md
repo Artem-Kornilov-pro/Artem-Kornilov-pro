@@ -65,6 +65,9 @@
       <sub>PostgreSQL, Redis, MongoDB,<br/>Cassandra, SQLite,<br/>проектирование схем, миграции,<br/>SQLAlchemy, Alembic, оптимизация запросов</sub>
     </td>
   </tr>
+</table>
+
+<table align="center">
   <tr>
     <td align="center" width="320">
       <img src="https://img.icons8.com/fluency/48/000000/docker.png" width="55" alt="devops"/><br/>
