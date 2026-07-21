@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=48&duration=3500&pause=800&color=6C63FF&center=true&vCenter=true&width=800&lines=Артемий+Корнилов" alt="name" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=48&duration=3500&pause=800&color=6C63FF&center=true&vCenter=true&width=800&lines=Artemiy+Kornilov" alt="name" />
 </div>
 
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=3500&pause=800&color=7B76F6&center=true&vCenter=true&width=800&lines=Python+Backend+%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA;Junior+%D0%B8%D0%BB%D0%B8+%D1%81%D1%82%D0%B0%D0%B6%D1%91%D1%80+%E2%80%A2+%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82+%D0%BA+%D0%BF%D1%80%D0%B5%D0%B4%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%D0%BC;%D0%91%D1%8D%D0%BA%D0%B5%D0%BD%D0%B4+%E2%80%A2+%D0%91%D0%BE%D1%82%D1%8B+%E2%80%A2+ML+%E2%80%A2+DevOps" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=3500&pause=800&color=7B76F6&center=true&vCenter=true&width=800&lines=Python+%2F+ML+Developer;Backend+%E2%80%A2+Bots+%E2%80%A2+ML+%E2%80%A2+DevOps;Open+to+opportunities" alt="Typing SVG" />
   </a>
 </div>
 
@@ -14,8 +14,8 @@
   <a href="https://t.me/ArtemigKot">
     <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white&labelColor=1A1B27" alt="Telegram"/>
   </a>
-  <a href="https://vk.com/ТВОЯ_ССЫЛКА">
-    <img src="https://img.shields.io/badge/ВКонтакте-0077FF?style=for-the-badge&logo=vk&logoColor=white&labelColor=1A1B27" alt="VK"/>
+  <a href="https://vk.com/YOUR_LINK">
+    <img src="https://img.shields.io/badge/VK-0077FF?style=for-the-badge&logo=vk&logoColor=white&labelColor=1A1B27" alt="VK"/>
   </a>
   <a href="mailto:artemijkornilov2@gmail.com">
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1A1B27" alt="Email"/>
@@ -32,11 +32,11 @@
     <tr>
       <td>
         <samp>
-          🐍 Бэкенд-разработчик на Python с опытом работы на фрилансе и в команде.<br/>
-          ⚡ Специализируюсь на создании Telegram-ботов, веб-приложений и API.<br/>
-          📦 Имею опыт с Docker, PostgreSQL, Redis, интеграцией сторонних сервисов<br/>
-          и разработкой автоматизированных решений.<br/>
-          🎯 Открыт к предложениям на позицию <b>Junior Python Developer</b>.
+          🐍 Python backend developer with freelance and in-team experience.<br/>
+          ⚡ Focused on building Telegram bots, web applications and APIs.<br/>
+          📦 Experienced with Docker, PostgreSQL, Redis, third-party service<br/>
+          integrations and automated solutions.<br/>
+          🎯 Open to <b>Python / ML Developer</b> opportunities.
         </samp>
       </td>
     </tr>
@@ -45,24 +45,24 @@
 
 ---
 
-## 💼 Чем я занимаюсь
+## 💼 What I Do
 
 <table align="center">
   <tr>
     <td align="center" width="320">
       <img src="https://img.icons8.com/fluency/48/000000/chatbot.png" width="55" alt="bots"/><br/>
-      <b>Telegram Боты</b><br/>
-      <sub>Aiogram, Telebot, FSM-сценарии,<br/>платёжные системы (YooKassa),<br/>админ-панели, вебхуки,<br/>многопользовательская логика</sub>
+      <b>Telegram Bots</b><br/>
+      <sub>Aiogram, Telebot, FSM scenarios,<br/>payment systems (YooKassa),<br/>admin panels, webhooks,<br/>multi-user logic</sub>
     </td>
     <td align="center" width="320">
       <img src="https://img.icons8.com/fluency/48/000000/api-settings.png" width="55" alt="api"/><br/>
-      <b>REST API & Веб-приложения</b><br/>
-      <sub>FastAPI, Flask, Litestar,<br/>проектирование эндпоинтов,<br/>валидация Pydantic,<br/>документация OpenAPI/Swagger</sub>
+      <b>REST API & Web Apps</b><br/>
+      <sub>FastAPI, Flask, Litestar,<br/>endpoint design,<br/>Pydantic validation,<br/>OpenAPI/Swagger docs</sub>
     </td>
     <td align="center" width="320">
       <img src="https://img.icons8.com/fluency/48/000000/database.png" width="55" alt="db"/><br/>
-      <b>Базы данных</b><br/>
-      <sub>PostgreSQL, Redis, MongoDB,<br/>Cassandra, SQLite,<br/>проектирование схем, миграции,<br/>SQLAlchemy, Alembic, оптимизация запросов</sub>
+      <b>Databases</b><br/>
+      <sub>PostgreSQL, Redis, MongoDB,<br/>Cassandra, SQLite,<br/>schema design, migrations,<br/>SQLAlchemy, Alembic, query optimization</sub>
     </td>
   </tr>
 </table>
@@ -71,27 +71,27 @@
   <tr>
     <td align="center" width="320">
       <img src="https://img.icons8.com/fluency/48/000000/docker.png" width="55" alt="devops"/><br/>
-      <b>DevOps & Деплой</b><br/>
-      <sub>Docker, Docker Compose,<br/>CI/CD, Linux-окружение,<br/>Bash-скрипты, деплой ботов<br/>и веб-сервисов на VPS</sub>
+      <b>DevOps & Deployment</b><br/>
+      <sub>Docker, Docker Compose,<br/>CI/CD, Linux environments,<br/>Bash scripting, deploying bots<br/>and web services to VPS</sub>
     </td>
     <td align="center" width="320">
       <img src="https://img.icons8.com/fluency/48/000000/artificial-intelligence.png" width="55" alt="ml"/><br/>
       <b>ML & RAG</b><br/>
-      <sub>LLaMA, PyTorch, векторизация,<br/>FAISS, Qdrant, ChromaDB,<br/>RAG-системы, pandas, NumPy,<br/>embedding-поиск, OCR</sub>
+      <sub>LLaMA, PyTorch, vectorization,<br/>FAISS, Qdrant, ChromaDB,<br/>RAG systems, pandas, NumPy,<br/>embedding search, OCR</sub>
     </td>
     <td align="center" width="320">
       <img src="https://img.icons8.com/fluency/48/000000/test-passed.png" width="55" alt="testing"/><br/>
-      <b>Тестирование & Качество</b><br/>
-      <sub>pytest, unittest, Locust, Postman,<br/>нагрузочное тестирование,<br/>интеграционные тесты,<br/>логирование (Logging),<br/>антифрод-системы</sub>
+      <b>Testing & Quality</b><br/>
+      <sub>pytest, unittest, Locust, Postman,<br/>load testing,<br/>integration tests,<br/>logging,<br/>anti-fraud systems</sub>
     </td>
   </tr>
 </table>
 
 ---
 
-## 🛠️ Технологический стек
+## 🛠️ Tech Stack
 
-### 🐍 Python-экосистема
+### 🐍 Python Ecosystem
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=1A1B27" alt="Python"/>
@@ -113,7 +113,7 @@
   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white&labelColor=1A1B27" alt="OpenCV"/>
 </p>
 
-### 🗄️ Базы данных & Брокеры
+### 🗄️ Databases & Brokers
 
 <p align="center">
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=1A1B27" alt="PostgreSQL"/>
@@ -135,7 +135,7 @@
   <img src="https://img.shields.io/badge/LLM-FF6F00?style=for-the-badge&logo=openai&logoColor=white&labelColor=1A1B27" alt="LLM"/>
 </p>
 
-### 🌐 API & Сетевое взаимодействие
+### 🌐 API & Networking
 
 <p align="center">
   <img src="https://img.shields.io/badge/REST%20API-009688?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=1A1B27" alt="REST API"/>
@@ -144,7 +144,7 @@
   <img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white&labelColor=1A1B27" alt="GraphQL"/>
 </p>
 
-### 🐳 DevOps & Инфраструктура
+### 🐳 DevOps & Infrastructure
 
 <p align="center">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=1A1B27" alt="Docker"/>
@@ -155,7 +155,7 @@
   <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white&labelColor=1A1B27" alt="Nginx"/>
 </p>
 
-### 🧪 Тестирование
+### 🧪 Testing
 
 <p align="center">
   <img src="https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white&labelColor=1A1B27" alt="pytest"/>
@@ -164,7 +164,7 @@
   <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white&labelColor=1A1B27" alt="Postman"/>
 </p>
 
-### 🌍 Другие языки & Frontend
+### 🌍 Other Languages & Frontend
 
 <p align="center">
   <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white&labelColor=1A1B27" alt="Go"/>
@@ -176,7 +176,7 @@
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white&labelColor=1A1B27" alt="CSS3"/>
 </p>
 
-### 🛠 Инструменты разработки
+### 🛠 Dev Tools
 
 <p align="center">
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white&labelColor=1A1B27" alt="Git"/>
@@ -190,9 +190,7 @@
 
 ---
 
-## 📊 Активность и статистика
-
-<br />
+## 📊 Activity & Stats
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Artem-Kornilov-pro&theme=radical&hide_border=true&background=1A1B27&ring=6C63FF&fire=6C63FF&currStreakLabel=6C63FF&sideNums=ffffff&sideLabels=ffffff&dates=a0a0a0" alt="GitHub Streak" />
@@ -205,9 +203,15 @@
   <img src="https://raw.githubusercontent.com/Artem-Kornilov-pro/Artem-Kornilov-pro/main/github-langs.svg?v=20260721024917" alt="Top Languages" />
 </div>
 
+<br />
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Artem-Kornilov-pro&theme=react-dark&hide_border=true&bg_color=1A1B27&color=6C63FF&line=6C63FF&point=ffffff&area=true" alt="Activity Graph" />
+</div>
+
 ---
 
-## 🏆 Трофеи
+## 🏆 Trophies
 
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Artem-Kornilov-pro&theme=radical&margin-w=15&margin-h=15&column=7&no-frame=true&bg_color=1A1B27" alt="GitHub Trophies" />
@@ -215,7 +219,7 @@
 
 ---
 
-## 📫 Контакты
+## 📫 Contact
 
 <div align="center">
   <table>
@@ -227,10 +231,10 @@
         <sub>@ArtemigKot</sub>
       </td>
       <td align="center">
-        <a href="https://vk.com/ТВОЯ_ССЫЛКА">
-          <img src="https://img.shields.io/badge/ВКонтакте-0077FF?style=for-the-badge&logo=vk&logoColor=white&labelColor=1A1B27" alt="VK"/><br/>
+        <a href="https://vk.com/YOUR_LINK">
+          <img src="https://img.shields.io/badge/VK-0077FF?style=for-the-badge&logo=vk&logoColor=white&labelColor=1A1B27" alt="VK"/><br/>
         </a>
-        <sub>ВКонтакте</sub>
+        <sub>VK</sub>
       </td>
       <td align="center">
         <a href="mailto:artemijkornilov2@gmail.com">
@@ -246,8 +250,8 @@
 
 <div align="center">
   <samp>
-    ✨ Открыт к предложениям на Junior позиции, стажировки и фриланс-проекты.<br/>
-    Пишите — буду рад сотрудничеству!
+    ✨ Open to full-time roles and freelance projects.<br/>
+    Feel free to reach out — happy to collaborate!
   </samp>
 </div>
 
