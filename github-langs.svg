@@ -11,7 +11,7 @@
   <rect x="20" y="55" width="420" height="12" rx="6" fill="#2a283e"/>
 
   <!-- Цветные части (обрезанные) -->
-  <rect x="20.0" y="55" width="314.3" height="12" fill="#3572A5" clip-path="url(#barClip)"/><rect x="334.3" y="55" width="61.3" height="12" fill="#3178c6" clip-path="url(#barClip)"/><rect x="395.6" y="55" width="25.4" height="12" fill="#00ADD8" clip-path="url(#barClip)"/><rect x="421.0" y="55" width="7.5" height="12" fill="#663399" clip-path="url(#barClip)"/><rect x="428.5" y="55" width="5.9" height="12" fill="#e34c26" clip-path="url(#barClip)"/><rect x="434.3" y="55" width="3.0" height="12" fill="#6E4C13" clip-path="url(#barClip)"/><rect x="437.3" y="55" width="2.0" height="12" fill="#384d54" clip-path="url(#barClip)"/><rect x="439.3" y="55" width="2.0" height="12" fill="#427819" clip-path="url(#barClip)"/>
+  <rect x="20.0" y="55" width="317.0" height="12" fill="#3572A5" clip-path="url(#barClip)"/><rect x="337.0" y="55" width="59.8" height="12" fill="#3178c6" clip-path="url(#barClip)"/><rect x="396.7" y="55" width="24.7" height="12" fill="#00ADD8" clip-path="url(#barClip)"/><rect x="421.5" y="55" width="7.3" height="12" fill="#663399" clip-path="url(#barClip)"/><rect x="428.7" y="55" width="5.7" height="12" fill="#e34c26" clip-path="url(#barClip)"/><rect x="434.5" y="55" width="2.9" height="12" fill="#6E4C13" clip-path="url(#barClip)"/><rect x="437.4" y="55" width="2.0" height="12" fill="#384d54" clip-path="url(#barClip)"/><rect x="439.4" y="55" width="2.0" height="12" fill="#427819" clip-path="url(#barClip)"/>
 
   <!-- Рамка поверх -->
   <rect x="20" y="55" width="420" height="12" rx="6" fill="none" stroke="#ffffff33" stroke-width="1"/>
@@ -19,13 +19,13 @@
   <!-- Легенда -->
   
     <circle cx="25" cy="85" r="4" fill="#3572A5"/>
-    <text x="33" y="89" fill="white" font-family="Arial" font-size="11">Python 74.8%</text>
+    <text x="33" y="89" fill="white" font-family="Arial" font-size="11">Python 75.5%</text>
     <circle cx="122" cy="85" r="4" fill="#3178c6"/>
-    <text x="130" y="89" fill="white" font-family="Arial" font-size="11">TypeScript 14.6%</text>
+    <text x="130" y="89" fill="white" font-family="Arial" font-size="11">TypeScript 14.2%</text>
     <circle cx="247" cy="85" r="4" fill="#00ADD8"/>
-    <text x="255" y="89" fill="white" font-family="Arial" font-size="11">Go 6.0%</text>
+    <text x="255" y="89" fill="white" font-family="Arial" font-size="11">Go 5.9%</text>
     <circle cx="316" cy="85" r="4" fill="#663399"/>
-    <text x="324" y="89" fill="white" font-family="Arial" font-size="11">CSS 1.8%</text>
+    <text x="324" y="89" fill="white" font-family="Arial" font-size="11">CSS 1.7%</text>
     <circle cx="25" cy="105" r="4" fill="#e34c26"/>
     <text x="33" y="109" fill="white" font-family="Arial" font-size="11">HTML 1.4%</text>
     <circle cx="108" cy="105" r="4" fill="#6E4C13"/>
