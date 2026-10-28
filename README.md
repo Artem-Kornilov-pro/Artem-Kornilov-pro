@@ -199,8 +199,8 @@
 <br />
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Artem-Kornilov-pro/Artem-Kornilov-pro/main/github-stats.svg?v=20261027040719" alt="GitHub Stats" />
-  <img src="https://raw.githubusercontent.com/Artem-Kornilov-pro/Artem-Kornilov-pro/main/github-langs.svg?v=20261027040719" alt="Top Languages" />
+  <img src="https://raw.githubusercontent.com/Artem-Kornilov-pro/Artem-Kornilov-pro/main/github-stats.svg?v=20261028043506" alt="GitHub Stats" />
+  <img src="https://raw.githubusercontent.com/Artem-Kornilov-pro/Artem-Kornilov-pro/main/github-langs.svg?v=20261028043506" alt="Top Languages" />
 </div>
 
 <br />
